@@ -12,7 +12,7 @@ public class CompSciProject extends PApplet
 		/* The applet is set to 500 pixels by 500 pixels */
 		  size(500,500);
 		  /* RGB mode set to maximum of 6, since we'll be using 6 colors. 0 for black, 6 for white, and everything in between. */
-		  colorMode(RGB, 6);
+		  colorMode(RGB, 6,21,75);
 		  /* The stroke color is used to determine the border color of each quadrilateral. */
 		  stroke(0);
 		  /* Frame rate is set to 30. */
@@ -64,11 +64,7 @@ public class CompSciProject extends PApplet
 		  }
 	}
 
-	public void colorBrick()
-	{
-		colorMode(RGB); 
-	}
-	
+
 	
 	
 	
